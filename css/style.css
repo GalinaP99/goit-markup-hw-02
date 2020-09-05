@@ -1,0 +1,71 @@
+:root {
+	--white: #fff;
+	--active: #2196f3;
+	--dark-color: #212121;
+	--main-color: #757575;
+	--gray: rgba(255, 255, 255, 0.6);
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--main-color);
+}
+ul {
+	list-style: none;
+}
+.logo {
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 31px;
+}
+
+.link {
+	color: var(--dark-color);
+}
+.link-active {
+	color: var(--active);
+}
+
+.link:hover,
+.link:focus {
+	color: var(--active);
+}
+a[href^="tel"] {
+	color: var(--gray);
+}
+button {
+	color: var(--white);
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+	border: 1px solid var(--active);
+}
+
+.hero {
+	color: var(--white);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 60px;
+}
+
+.section-title {
+	color: var(--dark-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.section-item {
+	color: var(--dark-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.section-description {
+	color: var(--main-color);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
