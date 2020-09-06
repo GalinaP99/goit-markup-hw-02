@@ -1,71 +1,156 @@
 :root {
-	--white: #fff;
-	--active: #2196f3;
-	--dark-color: #212121;
-	--main-color: #757575;
-	--gray: rgba(255, 255, 255, 0.6);
+  --white: #fff;
+  --active: #2196f3;
+  --dark-color: #212121;
+  --main-color: #757575;
+  --gray: rgba(255, 255, 255, 0.6);
+  --black: #000000;
+  --background-1: #2f303a;
+  --background-2: #f5f4fa;
 }
 
 body {
-	font-family: "Roboto", sans-serif;
-	color: var(--main-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+  background-color: var(--white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
+
 ul {
-	list-style: none;
+  list-style: none;
 }
 .logo {
-	font-family: Raleway;
-	font-weight: bold;
-	font-size: 26px;
-	line-height: 31px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+  color: var(--active);
+  letter-spacing: 0.03em;
+}
+.logo-title {
+  color: var(--black);
+}
+
+.logo-title-2 {
+  color: var(--white);
+}
+
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .link {
-	color: var(--dark-color);
+  color: var(--dark-color);
+  text-decoration: none;
 }
-.link-active {
-	color: var(--active);
+.link.current {
+  color: var(--active);
 }
 
+.link.contacts {
+  color: var(--main-color);
+}
 .link:hover,
 .link:focus {
-	color: var(--active);
-}
-a[href^="tel"] {
-	color: var(--gray);
-}
-button {
-	color: var(--white);
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 30px;
-	border: 1px solid var(--active);
+  color: var(--active);
 }
 
 .hero {
-	color: var(--white);
-	font-weight: 900;
-	font-size: 44px;
-	line-height: 60px;
+  background-color: var(--background-1);
+  color: var(--white);
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.link.button {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  background-color: var(--active);
+  border: 1px solid var(--active);
 }
 
 .section-title {
-	color: var(--dark-color);
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 42px;
+  color: var(--dark-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .section-item {
-	color: var(--dark-color);
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 16px;
+  color: var(--dark-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.section-description {
-	color: var(--main-color);
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 24px;
+.section-our-team {
+  background-color: var(--background-2);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
+
+.our-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--dark-color);
+}
+
+.footer-container {
+  background-color: var(--background-1);
+  color: var(--white);
+}
+
+.address-title {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.address-link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.contacts-link {
+  color: var(--gray);
+  text-decoration: none;
+}
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
